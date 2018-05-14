@@ -1,0 +1,128 @@
+                                ├─data   备份数据存档位置
+                                ├─equipment   服务端主模块
+                                │  ├─Admin   服务端管理模块
+                                │  │  ├─Common
+                                │  │  ├─Conf      配置
+                                │  │  ├─Controller 管理模块逻辑
+                                │  │  ├─Event
+                                │  │  ├─Logic  逻辑层抽离
+                                │  │  ├─Model  管理模块业务
+                                │  │  └─View   管理视图
+                                │  │      ├─Asset
+                                │  │      ├─Center
+                                │  │      ├─Class
+                                │  │      ├─Content
+                                │  │      ├─Findpassword
+                                │  │      ├─Include
+                                │  │      ├─Index
+                                │  │      ├─Login
+                                │  │      ├─Person
+                                │  │      ├─Picture
+                                │  │      ├─Role
+                                │  │      ├─User
+                                │  │      └─Usually
+                                │  ├─Common   通用方法与配置
+                                │  │  ├─Common
+                                │  │  └─Conf
+                                │  ├─Home     服务端Worker 模块
+                                │  │  ├─Common
+                                │  │  ├─Conf
+                                │  │  ├─Controller  worker逻辑
+                                │  │  ├─Model       worker业务
+                                │  │  └─View        worker视图
+                                │  └─Runtime   页面缓存与日志管理
+                                │      ├─Cache
+                                │      │  ├─Admin
+                                │      │  └─Home
+                                │      ├─Data
+                                │      └─Logs
+                                │          ├─Admin
+                                │          └─Home
+                                ├─images
+                                ├─public  通用静态资源
+                                │  ├─CSS
+                                │  └─e8admin
+                                │      ├─default
+                                │      │  ├─css
+                                │      │  ├─img
+                                │      │  ├─js
+                                │      │  ├─lib
+                                │      │  │  ├─bootstrap
+                                │      │  │  ├─Cikonss-master
+                                │      │  │  ├─Colorpicker
+                                │      │  │  ├─Datepicker
+                                │      │  │  │  ├─css
+                                │      │  │  │  └─js
+                                │      │  │  │      └─locales
+                                │      │  │  ├─echarts
+                                │      │  │  ├─font-awesome
+                                │      │  │  │  ├─css
+                                │      │  │  │  └─fonts
+                                │      │  │  ├─jquery-confirm
+                                │      │  │  ├─ueditor
+                                │      │  │  │  ├─dialogs
+                                │      │  │  │  │  ├─anchor
+                                │      │  │  │  │  ├─attachment
+                                │      │  │  │  │  │  ├─fileTypeImages
+                                │      │  │  │  │  │  └─images
+                                │      │  │  │  │  ├─background
+                                │      │  │  │  │  │  └─images
+                                │      │  │  │  │  ├─charts
+                                │      │  │  │  │  │  └─images
+                                │      │  │  │  │  ├─emotion
+                                │      │  │  │  │  │  └─images
+                                │      │  │  │  │  ├─gmap
+                                │      │  │  │  │  ├─help
+                                │      │  │  │  │  ├─image
+                                │      │  │  │  │  │  └─images
+                                │      │  │  │  │  ├─insertframe
+                                │      │  │  │  │  ├─link
+                                │      │  │  │  │  ├─map
+                                │      │  │  │  │  ├─music
+                                │      │  │  │  │  ├─preview
+                                │      │  │  │  │  ├─scrawl
+                                │      │  │  │  │  │  └─images
+                                │      │  │  │  │  ├─searchreplace
+                                │      │  │  │  │  ├─snapscreen
+                                │      │  │  │  │  ├─spechars
+                                │      │  │  │  │  ├─table
+                                │      │  │  │  │  ├─template
+                                │      │  │  │  │  │  └─images
+                                │      │  │  │  │  ├─video
+                                │      │  │  │  │  │  └─images
+                                │      │  │  │  │  ├─webapp
+                                │      │  │  │  │  └─wordimage
+                                │      │  │  │  ├─lang
+                                │      │  │  │  │  ├─en
+                                │      │  │  │  │  │  └─images
+                                │      │  │  │  │  └─zh-cn
+                                │      │  │  │  │      └─images
+                                │      │  │  │  ├─php
+                                │      │  │  │  ├─themes
+                                │      │  │  │  │  └─default
+                                │      │  │  │  │      ├─css
+                                │      │  │  │  │      └─images
+                                │      │  │  │  └─third-party
+                                │      │  │  │      ├─codemirror
+                                │      │  │  │      ├─highcharts
+                                │      │  │  │      │  ├─adapters
+                                │      │  │  │      │  ├─modules
+                                │      │  │  │      │  └─themes
+                                │      │  │  │      ├─snapscreen
+                                │      │  │  │      ├─SyntaxHighlighter
+                                │      │  │  │      ├─video-js
+                                │      │  │  │      │  └─font
+                                │      │  │  │      ├─webuploader
+                                │      │  │  │      └─zeroclipboard
+                                │      │  │  └─zTree
+                                │      │  │      ├─css
+                                │      │  │      │  └─img
+                                │      │  │      │      └─diy
+                                │      │  │      └─js
+                                │      │  └─_img
+                                │      └─upload   生成二维码上传目录
+                                │          └─photo
+                                │              ├─2014-08-31
+                                │              └─2014-12-16
+                                └─ThinkPHP    frameWork 依赖资源
+

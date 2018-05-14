@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>顺丰-Excel上传批处理</title>
+    <link rel="stylesheet" type="text/css" href="./public/css/uploadify.css">
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/CSS/common.css">
+   
+  
+</head>
+<body>
+<div class="top_div">
+    <a href="{:U('index/index')}">
+    <img src="http://www.sf-express.com/resource/images/index/sf.png" class='logo'>
+    </a>
+    <div  class="for_admin">
+        &nbsp; &nbsp; &nbsp; <a href="{:U('Index/index')}">单条记录传送门</a>&nbsp; &nbsp; &nbsp;
+    </div>
+</div>
+<div style="width: 800px;height: 340px;margin: auto auto;padding-top: 40px;background: #ffffff;text-align: center;margin-top: -200px;border: 1px solid #e7e7e7;border-radius:10px">
+    <div style="width: 165px;height: 96px;position: absolute">
+        <div class="tou"></div>
+        <div id="left_hand" class="initial_left_hand"></div>
+        <div id="right_hand" class="initial_right_hand"></div>
+    </div>
+<form action="{:U('ExcelAbout/in_operate')}" method='post' enctype="multipart/form-data">
+    
+         <p style="padding: 50px 0px 0px 0px;position: relative;">
+             <a href="javascript;" class="file">
+                 选择文件<input id="file_upload" type="file" name="excel"/>
+             </a>
+        </p>
+     <p style="padding: 90px 0px 0px 0px;position: relative;">
+         <input type="submit" style="width: 200px;height: 45px;background: #dc1e32;padding: 7px 10px;border-radius: 4px;border: 1px solid #dc1e32;color: #FFF;font-weight: bold;" value="开始excel引导" />
+    </p>
+	</form>
+</div>
+<div style="position: fixed;bottom: 20px;text-align: center;width: 100%;font-size: 18px;">
+     <a style="margin-left: 10px;color: #dc1e32;" href="http://localhost:8888/admin.php/Login.html">顺丰二维码运单，拒绝隐私暴露！</a> &nbsp;
+</div>
+</body>
+</html>

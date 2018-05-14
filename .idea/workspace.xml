@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16c2b7bb-f7ed-4029-bcf4-a8ff28997a0a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/downloadBK.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/e8admin/upload/photo/2014-12-16/54900d897dd25bk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/private_key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rsa_public_key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/equipment/Home/View/Index_index2.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/equipment/Runtime/Data/cur_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/equipment/Runtime/Data/log_sta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/1476777798.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/1476877482.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/download.png" afterPath="$PROJECT_DIR$/public/download.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/upload/photo/2014-12-16/54900d897dd25.jpg" afterPath="$PROJECT_DIR$/public/e8admin/upload/photo/2014-12-16/54900d897dd25.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Common/functions.php" afterPath="$PROJECT_DIR$/ThinkPHP/Common/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" afterPath="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Conf/debug.php" afterPath="$PROJECT_DIR$/ThinkPHP/Conf/debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/LICENSE.txt" afterPath="$PROJECT_DIR$/ThinkPHP/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Lang/en-us.php" afterPath="$PROJECT_DIR$/ThinkPHP/Lang/en-us.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Lang/pt-br.php" afterPath="$PROJECT_DIR$/ThinkPHP/Lang/pt-br.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Lang/zh-cn.php" afterPath="$PROJECT_DIR$/ThinkPHP/Lang/zh-cn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Lang/zh-tw.php" afterPath="$PROJECT_DIR$/ThinkPHP/Lang/zh-tw.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/AgentCheckBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/AgentCheckBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/BorisBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/BorisBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/BrowserCheckBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/BrowserCheckBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/BuildLiteBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/BuildLiteBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/CheckActionRouteBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/CheckActionRouteBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/CheckLangBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/CheckLangBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ChromeShowPageTraceBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ChromeShowPageTraceBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/CronRunBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/CronRunBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/FireShowPageTraceBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/FireShowPageTraceBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ParseTemplateBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ParseTemplateBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ReadHtmlCacheBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ReadHtmlCacheBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/RobotCheckBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/RobotCheckBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ShowPageTraceBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ShowPageTraceBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ShowRuntimeBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ShowRuntimeBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/TokenBuildBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/TokenBuildBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/UpgradeNoticeBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/UpgradeNoticeBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/WriteHtmlCacheBehavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/WriteHtmlCacheBehavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Org/Net/Http.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Net/Http.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Org/Net/IpLocation.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Net/IpLocation.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/ArrayList.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/ArrayList.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/CodeSwitch.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/CodeSwitch.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/Date.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/Date.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/Rbac.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/Rbac.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/Stack.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/Stack.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/String.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/String.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/App.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/App.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Auth.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Auth.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Behavior.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Behavior.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Build.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Build.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Apachenote.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Apachenote.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Apc.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Apc.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Db.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Db.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Eaccelerator.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Eaccelerator.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/File.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/File.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Memcache.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Memcache.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Memcached.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Memcached.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Memcachesae.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Memcachesae.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Shmop.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Shmop.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Sqlite.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Sqlite.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Wincache.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Wincache.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Xcache.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Xcache.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/HproseController.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/HproseController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/JsonRpcController.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/JsonRpcController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/RestController.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/RestController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/RpcController.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/RpcController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/YarController.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/YarController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Crypt.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Crypt.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Des.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Des.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Think.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Think.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Xxtea.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Xxtea.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Firebird.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Firebird.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Mongo.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Mongo.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Oracle.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Oracle.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Pgsql.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Pgsql.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Sqlite.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Sqlite.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Sqlsrv.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Sqlsrv.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Lite.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Lite.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Dispatcher.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Dispatcher.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Exception.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Exception.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Hook.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Hook.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image/Driver/GIF.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image/Driver/GIF.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image/Driver/Gd.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image/Driver/Gd.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image/Driver/Imagick.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image/Driver/Imagick.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Log.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Log.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Log/Driver/File.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Log/Driver/File.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Log/Driver/Sae.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Log/Driver/Sae.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/AdvModel.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/AdvModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/MergeModel.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/MergeModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/MongoModel.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/MongoModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/RelationModel.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/RelationModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/ViewModel.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/ViewModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Route.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Route.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Session/Driver/Db.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Session/Driver/Db.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Session/Driver/Memcache.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Session/Driver/Memcache.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Session/Driver/Mysqli.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Session/Driver/Mysqli.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Storage.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Storage.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Storage/Driver/File.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Storage/Driver/File.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Storage/Driver/Sae.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Storage/Driver/Sae.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Ease.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Ease.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Lite.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Lite.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Mobile.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Mobile.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Smart.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Smart.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Smarty.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Smarty.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/TagLib.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/TagLib.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/TagLib/Cx.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/TagLib/Cx.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/TagLib/Html.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/TagLib/Html.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Think.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Think.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs/bcs.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs/bcs.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs/mimetypes.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs/mimetypes.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs/requestcore.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs/requestcore.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Ftp.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Ftp.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Local.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Local.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Qiniu.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Qiniu.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Sae.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Sae.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/View.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/View.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/Boris.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/Boris.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/CLIOptionsHandler.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/CLIOptionsHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ColoredInspector.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ColoredInspector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/Config.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/DumpInspector.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/DumpInspector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/EvalWorker.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/EvalWorker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ExportInspector.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ExportInspector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/Inspector.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/Inspector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ReadlineClient.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ReadlineClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ShallowParser.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ShallowParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/CacheBase.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/CacheBase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/DiscISAM.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/DiscISAM.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/Igbinary.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/Igbinary.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/Memcache.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/Memcache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/Memory.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/Memory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/MemoryGZip.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/MemoryGZip.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/MemorySerialized.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/MemorySerialized.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/SQLite.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/SQLite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/SQLite3.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/SQLite3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/Wincache.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/CachedObjectStorage/Wincache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Chart/Renderer/jpgraph.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Chart/Renderer/jpgraph.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Reader/Excel5.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Reader/Excel5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Shared/OLE/PPS/Root.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Shared/OLE/PPS/Root.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Shared/PCLZip/readme.txt" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/Shared/PCLZip/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/locale/pt/br/functions" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/locale/pt/br/functions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/locale/pt/functions" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/locale/pt/functions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/locale/sv/functions" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Classes/PHPExcel/locale/sv/functions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/EaseTemplate/template.core.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/EaseTemplate/template.core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/EaseTemplate/template.ease.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/EaseTemplate/template.ease.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseClassManager.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseClassManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseClient.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseCommon.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseCommon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseFormatter.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseHttpClient.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseHttpClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseHttpServer.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseHttpServer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseIO.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseIO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseIOStream.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseIOStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseReader.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseTags.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseTags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseWriter.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseWriter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/SmartTemplate/class.smarttemplate.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/SmartTemplate/class.smarttemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/SmartTemplate/class.smarttemplatedebugger.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/SmartTemplate/class.smarttemplatedebugger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/SmartTemplate/class.smarttemplateparser.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/SmartTemplate/class.smarttemplateparser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/Smarty.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/Smarty.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/SmartyBC.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/SmartyBC.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/debug.tpl" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/debug.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/block.textformat.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/block.textformat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.counter.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.counter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.cycle.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.cycle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.fetch.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.fetch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_checkboxes.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_checkboxes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_image.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_options.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_radios.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_radios.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_select_date.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_select_date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_select_time.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_select_time.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_table.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.mailto.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.mailto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.math.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.math.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.capitalize.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.capitalize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.date_format.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.date_format.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.debug_print_var.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.debug_print_var.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.escape.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.escape.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.regex_replace.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.regex_replace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.replace.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.replace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.spacify.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.spacify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.truncate.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.truncate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.cat.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.cat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_characters.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_characters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_paragraphs.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_paragraphs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_sentences.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_sentences.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_words.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_words.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.default.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.escape.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.escape.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.from_charset.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.from_charset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.indent.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.indent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.lower.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.lower.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.noprint.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.noprint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.string_format.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.string_format.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.strip.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.strip.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.strip_tags.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.strip_tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.to_charset.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.to_charset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.unescape.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.unescape.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.upper.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.upper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.wordwrap.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.wordwrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/outputfilter.trimwhitespace.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/outputfilter.trimwhitespace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.escape_special_chars.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.escape_special_chars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.literal_compiler_param.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.literal_compiler_param.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.make_timestamp.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.make_timestamp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.mb_str_replace.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.mb_str_replace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.mb_unicode.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.mb_unicode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.mb_wordwrap.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.mb_wordwrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/variablefilter.htmlspecialchars.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/variablefilter.htmlspecialchars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_cacheresource.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_cacheresource.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_cacheresource_custom.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_cacheresource_custom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_cacheresource_keyvaluestore.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_cacheresource_keyvaluestore.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_config_source.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_config_source.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_cacheresource_file.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_cacheresource_file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_append.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_append.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_assign.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_assign.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_block.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_block.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_break.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_break.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_call.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_call.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_capture.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_capture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_config_load.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_config_load.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_continue.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_continue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_debug.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_eval.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_eval.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_extends.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_extends.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_for.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_for.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_foreach.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_foreach.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_function.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_if.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_if.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_include.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_include.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_include_php.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_include_php.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_insert.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_insert.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_ldelim.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_ldelim.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_nocache.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_nocache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_block_plugin.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_block_plugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_function_plugin.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_function_plugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_modifier.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_modifier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_object_block_function.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_object_block_function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_object_function.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_object_function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_print_expression.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_print_expression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_registered_block.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_registered_block.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_registered_function.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_registered_function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_special_variable.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_special_variable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_rdelim.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_rdelim.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_section.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_section.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_setfilter.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_setfilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_while.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_while.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compilebase.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compilebase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_config.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_config_file_compiler.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_config_file_compiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_configfilelexer.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_configfilelexer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_configfileparser.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_configfileparser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_data.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_debug.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_filter_handler.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_filter_handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_function_call_handler.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_function_call_handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_get_include_path.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_get_include_path.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_nocache_insert.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_nocache_insert.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_parsetree.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_parsetree.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_eval.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_eval.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_extends.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_extends.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_file.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_php.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_php.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_registered.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_registered.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_stream.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_stream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_string.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_string.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_template.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templatebase.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templatebase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templatecompilerbase.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templatecompilerbase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templatelexer.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templatelexer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templateparser.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templateparser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_utility.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_utility.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_write_file.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_write_file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource_custom.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource_custom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource_recompiled.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource_recompiled.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource_uncompiled.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource_uncompiled.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_security.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_security.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/class.compiler.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/class.compiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/class.config.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/class.config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/class.template.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/class.template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_config.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_custom_block.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_custom_block.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_custom_function.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_custom_function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_if.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_if.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.generate_compiler_debug_output.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.generate_compiler_debug_output.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.include.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.include.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.parse_is_expr.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.parse_is_expr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.section_start.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.section_start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/debug.tpl" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/debug.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.build_dir.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.build_dir.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.config_loader.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.config_loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.destroy_dir.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.destroy_dir.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.fetch_compile_include.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.fetch_compile_include.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.generate_debug_output.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.generate_debug_output.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/jsonRPC/jsonRPCClient.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/jsonRPC/jsonRPCClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/jsonRPC/jsonRPCServer.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/jsonRPC/jsonRPCServer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/juhe/weather.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/juhe/weather.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/bigint.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/bigint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/compat.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/compat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/CREDITS" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/CREDITS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/INSTALL" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/INSTALL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/LICENSE" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/README" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/config.m4" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/config.m4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/config.w32" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/config.w32" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.c" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.dsp" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.h" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.sln" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.vcproj" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.vcproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/test/test.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/test/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/xxtea.c" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/xxtea.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/xxtea.h" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/xxtea.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/phprpc_client.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/phprpc_client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/phprpc_date.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/phprpc_date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/phprpc_server.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/phprpc_server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/xxtea.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/xxtea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/CHANGELOG" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/CHANGELOG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/INSTALL" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/INSTALL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/LICENSE" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/README" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/VERSION" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/VERSION" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/index.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/phpqrcode.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/phpqrcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrbitstream.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrbitstream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrconfig.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrconfig.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrconst.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrconst.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrencode.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrencode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrimage.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrimage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrinput.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrinput.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrlib.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrlib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrmask.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrmask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrrscode.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrrscode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrspec.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrspec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrsplit.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrsplit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrtools.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/qrtools.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/tools/merge.bat" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/tools/merge.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/tools/merge.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/tools/merge.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/tools/merge.sh" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/tools/merge.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/tools/merged_config.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/tools/merged_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/tools/merged_header.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpqrcode/tools/merged_header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/COPYING" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/COPYING" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/README.md" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/Spyc.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/Spyc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/composer.json" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/examples/yaml-dump.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/examples/yaml-dump.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/examples/yaml-load.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/examples/yaml-load.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/php4/5to4.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/php4/5to4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/php4/spyc.php4" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/php4/spyc.php4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/php4/test.php4" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/php4/test.php4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/spyc.yaml" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/spyc.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/DumpTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/DumpTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/IndentTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/IndentTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/ParseTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/ParseTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/RoundTripTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/RoundTripTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/comments.yaml" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/comments.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/failing1.yaml" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/failing1.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/indent_1.yaml" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/indent_1.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/quotes.yaml" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/quotes.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Api/App.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Api/App.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Api/Controller.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Api/Controller.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Api/Dispatcher.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Api/Dispatcher.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Api/functions.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Api/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/App.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/App.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/Controller.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/Controller.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/Dispatcher.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/Dispatcher.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/View.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/View.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/convention.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/convention.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/functions.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Lite/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/Sae/convention.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Sae/convention.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/api.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/common.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/common.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/lite.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/lite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Mode/sae.php" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/sae.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/ThinkPHP.php" afterPath="$PROJECT_DIR$/ThinkPHP/ThinkPHP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Tpl/dispatch_jump.tpl" afterPath="$PROJECT_DIR$/ThinkPHP/Tpl/dispatch_jump.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Tpl/page_trace.tpl" afterPath="$PROJECT_DIR$/ThinkPHP/Tpl/page_trace.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Tpl/think_exception.tpl" afterPath="$PROJECT_DIR$/ThinkPHP/Tpl/think_exception.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin.php" afterPath="$PROJECT_DIR$/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/temp.sql" afterPath="$PROJECT_DIR$/data/temp.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Common/function.php" afterPath="$PROJECT_DIR$/equipment/Admin/Common/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Conf/config.php" afterPath="$PROJECT_DIR$/equipment/Admin/Conf/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/AssetController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/AssetController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/BaseController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/BaseController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/CenterController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/CenterController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/ClassController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/ClassController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/CommentController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/CommentController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/FindpasswordController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/FindpasswordController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/LinkController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/LinkController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/LoginController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/LoginController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/PersonController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/PersonController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/PictureController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/PictureController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/PublicController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/PublicController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/RoleController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/RoleController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/TeacherController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/TeacherController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/UserController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Controller/UsuallyController.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Controller/UsuallyController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Event/BaseEvent.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Event/BaseEvent.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Event/PersonEvent.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Event/PersonEvent.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Event/RoleEvent.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Event/RoleEvent.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Event/UserEvent.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Event/UserEvent.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Logic/ClassLogic.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Logic/ClassLogic.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Logic/LogLogic.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Logic/LogLogic.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Logic/MenuLogic.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Logic/MenuLogic.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Logic/RoleLogic.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Logic/RoleLogic.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Logic/UserLogic.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Logic/UserLogic.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Model/ClassModel.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Model/ClassModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Model/ConfigModel.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Model/ConfigModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Model/ContentModel.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Model/ContentModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Model/CuteModel.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Model/CuteModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Model/JysModel.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Model/JysModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Model/LinkModel.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Model/LinkModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Model/MenuModel.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Model/MenuModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Model/OneViewModel.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Model/OneViewModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/Model/PictureModel.class.php" afterPath="$PROJECT_DIR$/equipment/Admin/Model/PictureModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Asset/index.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Asset/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Asset/show.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Asset/show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Asset/welcome.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Asset/welcome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Center/index.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Center/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Class/add.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Class/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Class/addlink.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Class/addlink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Class/edit.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Class/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Class/editlink.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Class/editlink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Class/index.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Class/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Content/add.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Content/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Content/check.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Content/check.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Content/edit.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Content/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Content/index.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Content/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Content/restore.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Content/restore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Findpassword/find.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Findpassword/find.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Findpassword/find.html.bak" afterPath="$PROJECT_DIR$/equipment/Admin/View/Findpassword/find.html.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Findpassword/index.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Findpassword/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Findpassword/index.html.bak" afterPath="$PROJECT_DIR$/equipment/Admin/View/Findpassword/index.html.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Include/mbx.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Include/mbx.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Index/index.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Login/index.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Login/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Person/info.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Person/info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Person/pwd.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Person/pwd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Picture/add.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Picture/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Picture/edit.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Picture/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Picture/index.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Picture/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Picture/term.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Picture/term.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Picture/termadd.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Picture/termadd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Picture/termedit.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Picture/termedit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Role/access.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Role/access.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Role/add.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Role/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Role/edit.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Role/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Role/index.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Role/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/User/add.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/User/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/User/edit.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/User/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/User/index.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/User/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Admin/View/Usually/index.html" afterPath="$PROJECT_DIR$/equipment/Admin/View/Usually/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Common/Common/function.php" afterPath="$PROJECT_DIR$/equipment/Common/Common/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Common/Conf/config.php" afterPath="$PROJECT_DIR$/equipment/Common/Conf/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/Controller/ExcelAboutController.class.php" afterPath="$PROJECT_DIR$/equipment/Home/Controller/ExcelAboutController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/equipment/Home/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/Controller/LoginController.class.php" afterPath="$PROJECT_DIR$/equipment/Home/Controller/LoginController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/Controller/QrcodeController.class.php" afterPath="$PROJECT_DIR$/equipment/Home/Controller/QrcodeController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/equipment/Home/Controller/UserController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/Model/UsersModel.class.php" afterPath="$PROJECT_DIR$/equipment/Home/Model/UsersModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/View/ExcelAbout_index.html" afterPath="$PROJECT_DIR$/equipment/Home/View/ExcelAbout_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/View/Index_index.html" afterPath="$PROJECT_DIR$/equipment/Home/View/Index_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/View/Index_show_onpage.html" afterPath="$PROJECT_DIR$/equipment/Home/View/Index_show_onpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/View/login_login.html" afterPath="$PROJECT_DIR$/equipment/Home/View/login_login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/View/system_success.html" afterPath="$PROJECT_DIR$/equipment/Home/View/system_success.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Home/View/user_add.html" afterPath="$PROJECT_DIR$/equipment/Home/View/user_add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Cache/Admin/2167486203d4043734ac9e398d0c0dd2.php" afterPath="$PROJECT_DIR$/equipment/Runtime/Cache/Admin/2167486203d4043734ac9e398d0c0dd2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Cache/Admin/675f9c11249978f130985209c1f4aefb.php" afterPath="$PROJECT_DIR$/equipment/Runtime/Cache/Admin/675f9c11249978f130985209c1f4aefb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Cache/Admin/a182889c17a15a26935c8a2fb02af5cd.php" afterPath="$PROJECT_DIR$/equipment/Runtime/Cache/Admin/a182889c17a15a26935c8a2fb02af5cd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Cache/Admin/b91218e1a3b18c546f87d70f4c91a2f9.php" afterPath="$PROJECT_DIR$/equipment/Runtime/Cache/Admin/b91218e1a3b18c546f87d70f4c91a2f9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Cache/Admin/fad8a2506972176ab87b7cfeec151215.php" afterPath="$PROJECT_DIR$/equipment/Runtime/Cache/Admin/fad8a2506972176ab87b7cfeec151215.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Cache/Home/46bb9921206f130179ea15ba18f582cb.php" afterPath="$PROJECT_DIR$/equipment/Runtime/Cache/Home/46bb9921206f130179ea15ba18f582cb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Cache/Home/84d8cf333aa2032349854a46b32d5da6.php" afterPath="$PROJECT_DIR$/equipment/Runtime/Cache/Home/84d8cf333aa2032349854a46b32d5da6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Cache/Home/c4b2b587f353b4511d3078da20f5288a.php" afterPath="$PROJECT_DIR$/equipment/Runtime/Cache/Home/c4b2b587f353b4511d3078da20f5288a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Cache/Home/c599f64ff4698f244ac33d2d3d6acbc8.php" afterPath="$PROJECT_DIR$/equipment/Runtime/Cache/Home/c599f64ff4698f244ac33d2d3d6acbc8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Cache/Home/ecf8c40e4e5ccba64ce5308b528d2322.php" afterPath="$PROJECT_DIR$/equipment/Runtime/Cache/Home/ecf8c40e4e5ccba64ce5308b528d2322.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Admin/16_09_28.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Admin/16_09_28.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Admin/16_10_14.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Admin/16_10_14.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Admin/16_10_17.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Admin/16_10_17.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Admin/16_10_18.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Admin/16_10_18.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Admin/16_11_20.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Admin/16_11_20.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_14.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_14.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_16.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_16.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_17.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_17.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_18.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_18.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_19.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_19.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_20.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_10_20.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_11_20.log" afterPath="$PROJECT_DIR$/equipment/Runtime/Logs/Home/16_11_20.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/CSS/buttons.css" afterPath="$PROJECT_DIR$/public/CSS/buttons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/CSS/common.css" afterPath="$PROJECT_DIR$/public/CSS/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/CSS/uploadify.css" afterPath="$PROJECT_DIR$/public/CSS/uploadify.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/css/common.css" afterPath="$PROJECT_DIR$/public/e8admin/default/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/css/e8.css" afterPath="$PROJECT_DIR$/public/e8admin/default/css/e8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/css/login-com.css" afterPath="$PROJECT_DIR$/public/e8admin/default/css/login-com.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/css/login.css" afterPath="$PROJECT_DIR$/public/e8admin/default/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/css/main-1.css" afterPath="$PROJECT_DIR$/public/e8admin/default/css/main-1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/css/main.css" afterPath="$PROJECT_DIR$/public/e8admin/default/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/js/e8.js" afterPath="$PROJECT_DIR$/public/e8admin/default/js/e8.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/js/e8.js.bak" afterPath="$PROJECT_DIR$/public/e8admin/default/js/e8.js.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/js/fun.js" afterPath="$PROJECT_DIR$/public/e8admin/default/js/fun.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/Colorpicker/evol.colorpicker.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/Colorpicker/evol.colorpicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/Colorpicker/evol.colorpicker.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/Colorpicker/evol.colorpicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/echarts/echarts-map.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/echarts/echarts-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/echarts/echarts.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/echarts/echarts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/echarts/esl.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/echarts/esl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/jquery-confirm/jquery.confirm.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/jquery-confirm/jquery.confirm.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/jquery-confirm/jquery.confirm.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/jquery-confirm/jquery.confirm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/anchor/anchor.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/anchor/anchor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/attachment/attachment.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/attachment/attachment.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/attachment/attachment.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/attachment/attachment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/attachment/attachment.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/attachment/attachment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/background/background.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/background/background.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/background/background.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/background/background.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/background/background.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/background/background.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/charts/chart.config.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/charts/chart.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/charts/charts.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/charts/charts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/charts/charts.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/charts/charts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/charts/charts.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/charts/charts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/emotion/emotion.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/emotion/emotion.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/emotion/emotion.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/emotion/emotion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/emotion/emotion.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/emotion/emotion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/gmap/gmap.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/gmap/gmap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/help/help.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/help/help.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/help/help.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/help/help.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/help/help.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/help/help.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/image/image.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/image/image.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/image/image.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/image/image.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/image/image.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/image/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/insertframe/insertframe.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/insertframe/insertframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/internal.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/internal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/link/link.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/link/link.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/map/map.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/map/map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/map/show.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/map/show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/music/music.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/music/music.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/music/music.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/music/music.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/music/music.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/music/music.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/preview/preview.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/preview/preview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/scrawl/scrawl.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/scrawl/scrawl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/scrawl/scrawl.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/scrawl/scrawl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/scrawl/scrawl.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/scrawl/scrawl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/searchreplace/searchreplace.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/searchreplace/searchreplace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/searchreplace/searchreplace.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/searchreplace/searchreplace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/snapscreen/snapscreen.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/snapscreen/snapscreen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/spechars/spechars.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/spechars/spechars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/spechars/spechars.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/spechars/spechars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/table/edittable.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/table/edittable.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/table/edittable.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/table/edittable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/table/edittable.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/table/edittable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/table/edittd.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/table/edittd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/table/edittip.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/table/edittip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/template/config.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/template/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/template/template.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/template/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/template/template.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/template/template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/template/template.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/template/template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/video/video.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/video/video.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/video/video.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/video/video.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/video/video.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/video/video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/webapp/webapp.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/webapp/webapp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/wordimage/tangram.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/wordimage/tangram.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/wordimage/wordimage.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/wordimage/wordimage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/wordimage/wordimage.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/dialogs/wordimage/wordimage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/index.html" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/lang/en/en.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/lang/en/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/lang/zh-cn/zh-cn.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/lang/zh-cn/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/Uploader.class.php" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/Uploader.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/action_crawler.php" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/action_crawler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/action_list.php" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/action_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/action_upload.php" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/action_upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/config.json" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/config.json.bak" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/config.json.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/controller.php" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/php/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/themes/default/css/ueditor.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/themes/default/css/ueditor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/themes/default/css/ueditor.min.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/themes/default/css/ueditor.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/themes/default/dialogbase.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/themes/default/dialogbase.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/themes/iframe.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/themes/iframe.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/SyntaxHighlighter/shCore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/codemirror/codemirror.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/codemirror/codemirror.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/codemirror/codemirror.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/standalone-framework.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/highcharts-more.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/highcharts-more.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/highcharts-more.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/highcharts-more.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/highcharts.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/highcharts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/highcharts.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/highcharts.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/annotations.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/annotations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/annotations.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/annotations.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/canvas-tools.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/canvas-tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/canvas-tools.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/data.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/data.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/data.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/drilldown.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/drilldown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/drilldown.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/drilldown.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/exporting.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/exporting.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/funnel.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/funnel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/funnel.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/funnel.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/heatmap.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/heatmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/heatmap.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/heatmap.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/map.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/map.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/map.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/no-data-to-display.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/themes/dark-blue.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/themes/dark-blue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/themes/dark-green.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/themes/dark-green.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/themes/gray.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/themes/gray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/themes/grid.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/themes/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/themes/skies.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/highcharts/themes/skies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/jquery-1.10.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/jquery-1.10.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/video-js/font/vjs.svg" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/video-js/font/vjs.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/video-js/video-js.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/video-js/video-js.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/video-js/video-js.min.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/video-js/video-js.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/video-js/video.dev.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/video-js/video.dev.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/video-js/video.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/video-js/video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.custom.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.custom.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.flashonly.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.flashonly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.flashonly.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.html5only.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.html5only.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.html5only.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.withoutimage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/ueditor.all.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/ueditor.all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/ueditor.config.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/ueditor.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/ueditor.parse.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/ueditor/ueditor.parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/css/zTreeStyle.css" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/css/zTreeStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.all-3.5.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.all-3.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.all-3.5.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.all-3.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.core-3.5.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.core-3.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.core-3.5.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.core-3.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.excheck-3.5.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.excheck-3.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.excheck-3.5.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.excheck-3.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.exedit-3.5.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.exedit-3.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.exedit-3.5.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.exedit-3.5.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.exhide-3.5.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.exhide-3.5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.exhide-3.5.min.js" afterPath="$PROJECT_DIR$/public/e8admin/default/lib/zTree/js/jquery.ztree.exhide-3.5.min.js" />
+    </list>
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="leepet" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/equipment/Home/Controller/IndexController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelAboutController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/equipment/Home/Controller/ExcelAboutController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/equipment/Admin/View/Asset/show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="e8.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/e8admin/default/css/e8.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="54900d897dd25bk.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/e8admin/upload/photo/2014-12-16/54900d897dd25bk.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="54900d897dd25.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/e8admin/upload/photo/2014-12-16/54900d897dd25.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/equipment/Home/View/login_login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QrcodeController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/equipment/Home/Controller/QrcodeController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="openssl.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/openssl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="170" column="44" selection-start-line="170" selection-start-column="44" selection-end-line="170" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/equipment/Common/Conf/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tou</find>
+      <find>top_div</find>
+      <find>button</find>
+      <find>800</find>
+      <find>320</find>
+      <find>height: 50px;line-height: 50px;margin-top: 30px;border-top: 1px solid #e7e7e7;</find>
+      <find>120</find>
+      <find>user_add</find>
+      <find>乐宠</find>
+      <find>图片管理</find>
+      <find>get_mes_by_code</find>
+      <find>show</find>
+      <find>[</find>
+      <find>for</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\bs\leepet\equipment\Home</dir>
+      <dir>D:\bs\leepet\equipment</dir>
+      <dir>D:\bs\leepet\equipment\Admin</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/equipment/Home/View/user_add.html" />
+        <option value="$PROJECT_DIR$/equipment/Home/View/login_login.html" />
+        <option value="$PROJECT_DIR$/equipment/Admin/View/Asset/welcome.html" />
+        <option value="$PROJECT_DIR$/equipment/Admin/Conf/config.php" />
+        <option value="$PROJECT_DIR$/equipment/Admin/View/Picture/index.html" />
+        <option value="$PROJECT_DIR$/intro.txt" />
+        <option value="$PROJECT_DIR$/equipment/Home/View/Index_index_bk.html" />
+        <option value="$PROJECT_DIR$/equipment/Home/View/Index_index.html" />
+        <option value="$PROJECT_DIR$/equipment/Home/View/system_success.html" />
+        <option value="$PROJECT_DIR$/equipment/Home/View/Index_index2.html" />
+        <option value="$PROJECT_DIR$/equipment/Home/View/ExcelAbout_index.html" />
+        <option value="$PROJECT_DIR$/equipment/Admin/View/Login/index.html" />
+        <option value="$PROJECT_DIR$/equipment/Admin/Logic/UserLogic.class.php" />
+        <option value="$PROJECT_DIR$/equipment/Admin/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/equipment/Admin/View/Asset/index.html" />
+        <option value="$PROJECT_DIR$/equipment/Admin/Controller/PictureController.class.php" />
+        <option value="$PROJECT_DIR$/equipment/Admin/Controller/AssetController.class.php" />
+        <option value="$PROJECT_DIR$/equipment/Home/View/Index_show_onpage.html" />
+        <option value="$PROJECT_DIR$/equipment/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/public/CSS/common.css" />
+        <option value="$PROJECT_DIR$/equipment/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/equipment/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/equipment/Home/Controller/ExcelAboutController.class.php" />
+        <option value="$PROJECT_DIR$/equipment/Home/Controller/QrcodeController.class.php" />
+        <option value="$PROJECT_DIR$/equipment/Admin/View/Asset/show.html" />
+        <option value="$PROJECT_DIR$/public/e8admin/default/css/e8.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="检出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="0" id="移除" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="equipment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="equipment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="equipment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/e8admin/upload/photo/2014-12-16" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/equipment/Home/View" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16c2b7bb-f7ed-4029-bcf4-a8ff28997a0a" name="Default" comment="" />
+      <created>1522306779106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522306779106</updated>
+      <workItem from="1522306781628" duration="13707000" />
+      <workItem from="1522813527907" duration="31000" />
+      <workItem from="1523262910176" duration="1797000" />
+      <workItem from="1523612704415" duration="598000" />
+      <workItem from="1524728405482" duration="5369000" />
+      <workItem from="1526032017099" duration="8000" />
+      <workItem from="1526032066052" duration="16000" />
+      <workItem from="1526032107719" duration="10882000" />
+      <workItem from="1526264555375" duration="10848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43256000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24717286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25813448" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="118" column="39" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/1522316408.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/ThinkPHP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/Controller/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/View/Picture/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intro.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core_d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="298" column="9" selection-start-line="298" selection-start-column="9" selection-end-line="298" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/Model/UsersModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/View/Index_index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/View/system_success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/View/Index_index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/View/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/View/ExcelAbout_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/View/Index_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/View/Login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/Controller/LoginController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/Logic/UserLogic.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/View/Index_show_onpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/View/Asset/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="99" selection-start-line="86" selection-start-column="99" selection-end-line="86" selection-end-column="99" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/Controller/PublicController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/Controller/PictureController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/Controller/AssetController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/Controller/LoginController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Common/Common/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CSS/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/openssl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="170" column="44" selection-start-line="170" selection-start-column="44" selection-end-line="170" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/private_key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rsa_public_key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/Controller/QrcodeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/Controller/ExcelAboutController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Admin/View/Asset/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/e8admin/default/_img/user.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/e8admin/default/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/e8admin/default/img/tr_bg.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/e8admin/default/img/transparent.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/e8admin/default/img/input_hd.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/e8admin/default/img/down.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/e8admin/default/img/img-72.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/e8admin/default/img/admin-logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/e8admin/default/css/e8.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/e8admin/upload/photo/2014-12-16/54900d897dd25bk.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/e8admin/upload/photo/2014-12-16/54900d897dd25.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/equipment/Home/View/login_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

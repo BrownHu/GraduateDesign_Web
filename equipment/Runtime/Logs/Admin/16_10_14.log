@@ -1,0 +1,981 @@
+[ 2016-10-14T16:35:04+08:00 ] ::1 /leepet/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-14T16:35:05+08:00 ] ::1 /leepet/admin.php/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: syscon D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\a182889c17a15a26935c8a2fb02af5cd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:35:05+08:00 ] ::1 /leepet/admin.php/Login/createVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-10-14T16:35:16+08:00 ] ::1 /leepet/admin.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_user` [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `leepet_role` [ RunTime:0.0310s ]
+NOTIC: [8192] Function ereg() is deprecated D:\wamp\www\leepet\equipment\Admin\Logic\UserLogic.class.php 第 30 行.
+SQL: SELECT * FROM `leepet_user` WHERE `username` = 'admin' AND `password` = '81dc9bdb52d04dc20036dbd8313ed055' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `leepet_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `leepet_user` SET `username`='admin',`nickname`='超级管理员',`password`='81dc9bdb52d04dc20036dbd8313ed055',`bind_account`='',`last_login_time`='1476434116',`last_login_ip`='0.0.0.0',`verify`='BmFZ3p',`email`='1102665668@qq.com',`remark`='',`create_time`='1408778905',`update_time`='1418953970',`status`='1',`role_id`='1',`info`='',`photo`='photo/2014-12-16/54900d897dd25.jpg' WHERE `id` = 1 [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_log` [ RunTime:0.0060s ]
+NOTIC: [2] fopen(D:\wamp\www\leepet\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+SQL: INSERT INTO `leepet_log` (`username`,`logintime`,`loginip`,`status`,`password`,`info`,`area`) VALUES ('admin','1476434116','0.0.0.0','1','密码保密','用户名登陆','') [ RunTime:0.0020s ]
+
+[ 2016-10-14T16:35:16+08:00 ] ::1 /leepet/admin.php/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 1 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_admin_menu` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `leepet_admin_menu` WHERE `uid` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: url D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\b91218e1a3b18c546f87d70f4c91a2f9.php 第 74 行.
+NOTIC: [8] Undefined index: url D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\b91218e1a3b18c546f87d70f4c91a2f9.php 第 74 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\b91218e1a3b18c546f87d70f4c91a2f9.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:35:16+08:00 ] ::1 /leepet/admin.php/asset/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 60 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T16:35:20+08:00 ] ::1 /leepet/admin.php/Index/index/menu/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 3 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 38 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:35:20+08:00 ] ::1 /leepet/admin.php/asset/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 60 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-14T16:35:21+08:00 ] ::1 /leepet/admin.php/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\fad8a2506972176ab87b7cfeec151215.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T16:37:32+08:00 ] ::1 /leepet/admin.php/Index/index/menu/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 3 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 38 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:37:32+08:00 ] ::1 /leepet/admin.php/asset/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 60 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:37:33+08:00 ] ::1 /leepet/admin.php/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\fad8a2506972176ab87b7cfeec151215.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T16:37:34+08:00 ] ::1 /leepet/admin.php/Asset/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 60 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:37:34+08:00 ] ::1 /leepet/admin.php/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\fad8a2506972176ab87b7cfeec151215.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:38:18+08:00 ] ::1 /leepet/admin.php/Index/index/menu/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 3 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 38 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:38:18+08:00 ] ::1 /leepet/admin.php/asset/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 60 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:38:23+08:00 ] ::1 /leepet/admin.php/asset/show/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_assets` WHERE `id` = 33  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: url D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\675f9c11249978f130985209c1f4aefb.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T16:42:09+08:00 ] ::1 /leepet/admin.php/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\fad8a2506972176ab87b7cfeec151215.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:42:11+08:00 ] ::1 /leepet/admin.php/Asset/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 60 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:42:15+08:00 ] ::1 /leepet/admin.php/asset/show/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_assets` WHERE `id` = 33  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: url D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\675f9c11249978f130985209c1f4aefb.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:46:13+08:00 ] ::1 /leepet/admin.php/asset/show/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_assets` WHERE `id` = 33  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: url D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\675f9c11249978f130985209c1f4aefb.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:02:35+08:00 ] ::1 /leepet/admin.php/Index/index/menu/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 3 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 38 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:02:35+08:00 ] ::1 /leepet/admin.php/asset/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 60 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:02:37+08:00 ] ::1 /leepet/admin.php/Asset/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 60 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T17:02:42+08:00 ] ::1 /leepet/admin.php/asset/show/id/34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_assets` WHERE `id` = 34  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: url D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\675f9c11249978f130985209c1f4aefb.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T17:02:48+08:00 ] ::1 /leepet/admin.php/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\fad8a2506972176ab87b7cfeec151215.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-10-14T17:11:21+08:00 ] ::1 /leepet/admin.php/Index/index/menu/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 3 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 38 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:11:22+08:00 ] ::1 /leepet/admin.php/asset/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 60 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:11:23+08:00 ] ::1 /leepet/admin.php/Asset/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 60 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:11:34+08:00 ] ::1 /leepet/admin.php/Picture/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\fad8a2506972176ab87b7cfeec151215.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T17:12:10+08:00 ] ::1 /leepet/admin.php/Index/index/menu/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 3 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 38 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:12:10+08:00 ] ::1 /leepet/admin.php/asset/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\AssetController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\leepet\equipment\Admin\Controller\AssetController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `leepet_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_session` WHERE ( ip='0.0.0.0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_menu` WHERE `parentid` = 0 AND `app` = 'Admin' AND `status` = 1 AND `hidden` = 0 ORDER BY listorder asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_assets`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Include/mbx.html): failed to open stream: No such file or directory D:\wamp\www\leepet\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 60 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: message D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 83 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\leepet\equipment\Runtime\Cache\Admin\2167486203d4043734ac9e398d0c0dd2.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

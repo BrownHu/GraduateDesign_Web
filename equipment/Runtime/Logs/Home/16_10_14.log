@@ -1,0 +1,2000 @@
+[ 2016-10-14T16:34:21+08:00 ] ::1 /leepet/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035002s ]
+
+[ 2016-10-14T16:34:22+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.043003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043002s ]
+
+[ 2016-10-14T16:34:30+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0710s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0130s ]
+SQL: SELECT `user_nick` FROM `leepet_users` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:34:31+08:00 ] ::1 /leepet/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:34:42+08:00 ] ::1 /leepet/index.php/Index/show_onpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0580s ]
+SQL: INSERT INTO `leepet_assets` (`asset_code`,`user_id`,`user_part_id`,`add_time`,`qr_path`) VALUES ('123123_213213_213','1113','21432','1476434081','./images/1476434081.png') [ RunTime:0.0730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:34:49+08:00 ] ::1 /leepet/index.php/ExcelAbout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:34:49+08:00 ] ::1 /leepet/index.php/ExcelAbout/public/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:public
+
+[ 2016-10-14T16:34:51+08:00 ] ::1 /leepet/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:34:54+08:00 ] ::1 /leepet/index.php/ExcelAbout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T16:34:54+08:00 ] ::1 /leepet/index.php/ExcelAbout/public/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:public
+
+[ 2016-10-14T16:37:51+08:00 ] ::1 /leepet/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:38:02+08:00 ] ::1 /leepet/index.php/Index/show_onpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0040s ]
+SQL: INSERT INTO `leepet_assets` (`asset_code`,`user_id`,`user_part_id`,`add_time`,`qr_path`) VALUES ('123','123314','3432432','1476434282','./images/1476434282.png') [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:58:44+08:00 ] ::1 /leepet/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:58:46+08:00 ] ::1 /leepet/index.php/Login/log_off.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T16:58:47+08:00 ] ::1 /leepet/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T16:58:47+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:01:19+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT `user_nick` FROM `leepet_users` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:01:20+08:00 ] ::1 /leepet/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:02:06+08:00 ] ::1 /leepet/index.php/Index/show_onpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: INSERT INTO `leepet_assets` (`asset_code`,`user_id`,`user_part_id`,`add_time`,`qr_path`) VALUES ('10001','10001','1','1476435726','./images/1476435726.png') [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:03:37+08:00 ] ::1 /leepet/index.php/ExcelAbout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:03:37+08:00 ] ::1 /leepet/index.php/ExcelAbout/public/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:public
+
+[ 2016-10-14T17:03:41+08:00 ] ::1 /leepet/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T17:03:42+08:00 ] ::1 /leepet/index.php/Login/log_off.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T17:03:43+08:00 ] ::1 /leepet/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T17:03:43+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:07:35+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T17:07:35+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:07:35+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:07:36+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-10-14T17:07:36+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:07:37+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:07:37+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:07:53+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT `user_nick` FROM `leepet_users` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T17:07:54+08:00 ] ::1 /leepet/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:10:21+08:00 ] ::1 /leepet/index.php/Index/show_onpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: INSERT INTO `leepet_assets` (`asset_code`,`user_id`,`user_part_id`,`add_time`,`qr_path`) VALUES ('qwewqe_1231_ewrwqer','1001','1','1476436221','./images/1476436221.png') [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:14:42+08:00 ] ::1 /leepet/index.php/ExcelAbout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T17:14:43+08:00 ] ::1 /leepet/index.php/ExcelAbout/public/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:public
+
+[ 2016-10-14T17:14:55+08:00 ] ::1 /leepet/index.php/ExcelAbout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:14:55+08:00 ] ::1 /leepet/index.php/ExcelAbout/public/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:public
+
+[ 2016-10-14T17:14:55+08:00 ] ::1 /leepet/index.php/ExcelAbout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:23:58+08:00 ] ::1 /leepet/index.php/Qrcode/add_event/mid/12/event/%22say%20fuck%22/aid/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: INSERT INTO `leepet_events` (`manage_id`,`event`,`asset_id`) VALUES ('12','&quot;say fuck&quot;','12') [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-10-14T17:24:44+08:00 ] ::1 /leepet/index.php/Qrcode/add_event/mid/12/event/%22say%20fuck%22/aid/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+ERR: 1062:Duplicata du champ '0' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `leepet_events` (`manage_id`,`event`,`add_time`,`asset_id`) VALUES ('12','&quot;say fuck&quot;','1476437084','12')
+ERR: 1062:Duplicata du champ '0' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `leepet_events` (`manage_id`,`event`,`add_time`,`asset_id`) VALUES ('12','&quot;say fuck&quot;','1476437084','12')
+
+[ 2016-10-14T17:26:43+08:00 ] ::1 /leepet/index.php/Qrcode/add_event/mid/12/event/%22say%20fuck%22/aid/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0080s ]
+SQL: INSERT INTO `leepet_events` (`manage_id`,`event`,`add_time`,`asset_id`) VALUES ('12','&quot;say fuck&quot;','1476437203','12') [ RunTime:0.0630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T17:41:56+08:00 ] ::1 /leepet/index.php/login/get_user_nickname/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 参数错误或者未定义:temp
+
+[ 2016-10-14T17:42:27+08:00 ] ::1 /leepet/index.php/login/get_user_nickname/temp/'admin'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+ERR: 1064:Erreur de syntaxe près de 'admin'' ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `user_nick` FROM `leepet_users` WHERE ( user_name=''admin'' ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de 'admin'' ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `user_nick` FROM `leepet_users` WHERE ( user_name=''admin'' ) LIMIT 1  
+
+[ 2016-10-14T17:42:55+08:00 ] ::1 /leepet/index.php/login/get_user_nickname/temp/'admin'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0080s ]
+ERR: 1054:Champ 'admin' inconnu dans where clause
+ [ SQL语句 ] : SELECT `user_nick` FROM `leepet_users` WHERE ( user_name=admin ) LIMIT 1  
+ERR: 1054:Champ 'admin' inconnu dans where clause
+ [ SQL语句 ] : SELECT `user_nick` FROM `leepet_users` WHERE ( user_name=admin ) LIMIT 1  
+
+[ 2016-10-14T17:42:56+08:00 ] ::1 /leepet/index.php/login/get_user_nickname/temp/'admin'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0070s ]
+ERR: 1054:Champ 'admin' inconnu dans where clause
+ [ SQL语句 ] : SELECT `user_nick` FROM `leepet_users` WHERE ( user_name=admin ) LIMIT 1  
+ERR: 1054:Champ 'admin' inconnu dans where clause
+ [ SQL语句 ] : SELECT `user_nick` FROM `leepet_users` WHERE ( user_name=admin ) LIMIT 1  
+
+[ 2016-10-14T17:43:11+08:00 ] ::1 /leepet/index.php/login/get_user_nickname/temp/'admin'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0070s ]
+SQL: SELECT `user_nick` FROM `leepet_users` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:43:14+08:00 ] ::1 /leepet/index.php/login/get_user_nickname/temp/'admin'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0280s ]
+SQL: SELECT `user_nick` FROM `leepet_users` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:43:34+08:00 ] ::1 /leepet/index.php/login/get_user_nickname/temp/'admin'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0740s ]
+SQL: SELECT `user_nick` FROM `leepet_users` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T17:43:58+08:00 ] ::1 /leepet/index.php/login/get_user_nickname/temp/'admin'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+ERR: Think\Model:getfields方法不存在！
+
+[ 2016-10-14T17:47:17+08:00 ] ::1 /leepet/index.php/login/login_onandroid/name/'admin'/pass/'admin'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = '\'admin\'' AND `user_pass` = '7aec9d92c71acd6680c8da9f1c746da7' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-14T17:47:43+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-14T17:48:18+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T17:48:30+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-14T17:48:38+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-14T17:48:39+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-14T17:48:44+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `leepet_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-10-14T17:48:54+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T17:49:08+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+ERR: Think\Model:top方法不存在！
+
+[ 2016-10-14T17:49:55+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\leepet\equipment\Home\Controller\LoginController.class.php 第 29 行.
+
+[ 2016-10-14T17:49:55+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\leepet\equipment\Home\Controller\LoginController.class.php 第 29 行.
+
+[ 2016-10-14T17:49:56+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\leepet\equipment\Home\Controller\LoginController.class.php 第 29 行.
+
+[ 2016-10-14T17:50:12+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\leepet\equipment\Home\Controller\LoginController.class.php 第 29 行.
+
+[ 2016-10-14T17:51:09+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-14T17:51:09+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-14T17:51:10+08:00 ] ::1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-14T17:51:11+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-14T17:51:11+08:00 ] ::1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-14T17:51:30+08:00 ] 127.0.0.1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-14T17:51:31+08:00 ] ::1 /leepet/index.php/login/login_onandroid/name/admin/pass/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-14T17:58:50+08:00 ] ::1 /leepet/index.php/Qrcode/get_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:58:59+08:00 ] ::1 /leepet/index.php/Qrcode/get_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T17:59:24+08:00 ] ::1 /leepet/index.php/Qrcode/get_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T17:59:25+08:00 ] ::1 /leepet/index.php/Qrcode/get_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-14T17:59:26+08:00 ] ::1 /leepet/index.php/Qrcode/get_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T18:00:12+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/qwewqe_1231_ewrwqer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:00:18+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:01:11+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:01:19+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0070s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_events` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:01:19+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_events` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T18:03:33+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_events` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:03:34+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_events` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:03:35+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_events` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:03:35+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_events` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:04:34+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T18:04:35+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-14T18:04:36+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:06:44+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0080s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T18:06:44+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T18:06:44+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:06:45+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T18:08:07+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:08:51+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-14T18:10:41+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:10:59+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T18:11:00+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T18:11:01+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:11:01+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T18:11:06+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+ERR: Think\Model:all方法不存在！
+
+[ 2016-10-14T18:11:13+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0050s ]
+ERR: Think\Model:get方法不存在！
+
+[ 2016-10-14T18:11:14+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0080s ]
+ERR: Think\Model:get方法不存在！
+
+[ 2016-10-14T18:11:14+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0080s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0110s ]
+ERR: Think\Model:get方法不存在！
+
+[ 2016-10-14T18:11:50+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0070s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-14T18:11:52+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-14T18:12:00+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:13:59+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:14:30+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35  [ RunTime:0.0000s ]
+
+[ 2016-10-14T18:14:31+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 35  [ RunTime:0.0000s ]
+
+[ 2016-10-14T18:19:44+08:00 ] ::1 /leepet/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-10-14T18:19:48+08:00 ] ::1 /leepet/index.php/Login/log_off.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:19:49+08:00 ] ::1 /leepet/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:19:49+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-14T18:19:51+08:00 ] ::1 /leepet/index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `leepet_users` WHERE `user_name` = 'admin' AND `user_pass` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `leepet_users` [ RunTime:0.0060s ]
+SQL: SELECT `user_nick` FROM `leepet_users` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T18:19:53+08:00 ] ::1 /leepet/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-14T18:20:33+08:00 ] ::1 /leepet/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T18:20:47+08:00 ] ::1 /leepet/index.php/Index/show_onpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: INSERT INTO `leepet_assets` (`asset_code`,`user_id`,`user_part_id`,`add_time`,`qr_path`) VALUES ('2016_12345_hubing_get','10001','1','1476440447','./images/1476440447.png') [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T18:22:13+08:00 ] ::1 /leepet/index.php/Qrcode/add_event/mid/1/event/sayfuck/aid/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: INSERT INTO `leepet_events` (`manage_id`,`event`,`add_time`,`asset_id`) VALUES ('1','sayfuck','1476440533','36') [ RunTime:0.0790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T18:22:48+08:00 ] ::1 /leepet/index.php/Qrcode/get_event/code/2016_12345_hubing_get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0070s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 36  [ RunTime:0.0010s ]
+
+[ 2016-10-14T18:23:24+08:00 ] ::1 /leepet/index.php/Qrcode/add_event/mid/1/event/hereweare/aid/36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0060s ]
+SQL: INSERT INTO `leepet_events` (`manage_id`,`event`,`add_time`,`asset_id`) VALUES ('1','hereweare','1476440604','36') [ RunTime:0.1540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-10-14T18:23:37+08:00 ] ::1 /leepet/index.php/Qrcode/get_event/code/2016_12345_hubing_get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `leepet_assets` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `leepet_assets` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `leepet_events` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `leepet_events` WHERE `asset_id` = 36  [ RunTime:0.0010s ]
+
+[ 2016-10-14T19:56:40+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:get_info
+
+[ 2016-10-14T19:56:41+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:get_info
+
+[ 2016-10-14T19:56:42+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:get_info
+
+[ 2016-10-14T19:56:42+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:get_info
+
+[ 2016-10-14T20:22:24+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:get_info
+
+[ 2016-10-14T20:22:25+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:get_info
+
+[ 2016-10-14T20:22:25+08:00 ] ::1 /leepet/index.php/Qrcode/get_info/code/'qwewqe_1231_ewrwqer'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:get_info
+
+[ 2016-10-14T21:26:40+08:00 ] ::1 /leepet/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __IMAGE__ - assumed '__IMAGE__' D:\wamp\www\leepet\equipment\Home\Conf\config.php 第 9 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
